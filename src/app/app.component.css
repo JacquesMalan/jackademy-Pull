@@ -1,0 +1,7 @@
+.container {
+  margin: 0 auto;
+  width: 820px;
+  justify-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+}
