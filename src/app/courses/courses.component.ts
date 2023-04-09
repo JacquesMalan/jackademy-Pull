@@ -130,10 +130,16 @@ export class CoursesComponent {
   }
 
   courseRadioBtnValue: string = "All"; //keep track of which radio btn is selected
+  searchText: string = '';
 
   onFilterRadioBtnChange(data: string) {
     this.courseRadioBtnValue = data;
     // console.log(this.courseRadioBtnValue)
+  }
+
+  onSearchTextChange(data: string) {
+    this.searchText = data;
+    // console.log(this.searchText)
   }
 
 }
